@@ -1,0 +1,158 @@
+*, :after, :before { box-sizing: border-box; }
+
+body {
+    color: #251b0c;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3,
+h2,
+h4,
+h5,
+.kontakt {
+    text-align: center;
+}
+
+.uvod_web,
+.vzdelani,
+.digitalni_dovednosti,
+.kontakt,
+.portfolio {
+    margin: 1% 10%;
+}
+
+
+.english {
+    margin-left: 10px;
+}
+
+header {
+    background-image: url("images/panda_banner_name.png");
+    padding: 30vh;
+    font-family: 'Noto Serif', serif;
+}
+
+.menu {
+    /* background-color: rgb(189, 150, 153); světle růžová */
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    /* background-color: rgb(199, 164, 164); světlě růžová */
+    background-color: #bd7373;
+    float: left;
+    color: #f2f2f2;
+    padding: 2vh 2vh;
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px solid #66575B;
+    border-radius: 2%;
+}
+       
+nav a:hover {
+    background-color: #73BDBD;
+    color: #66575B;
+    border: none;
+    font-weight: bold;
+}
+
+nav a:active {
+    background-color: #66575B;
+    color: white;
+}
+
+header h1 {
+    /* color: rgb(182, 104, 104); růžová */
+    color: #66575B;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    vertical-align: text-top;
+    /* background: rgba(255, 255, 255, 0.7); */
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 60px;
+}
+
+img {
+    width: 100%;
+}
+
+.web_claim {
+    font-size: 25px;
+    text-align: center;
+}
+
+.omne p {
+    font-style: italic;
+    text-align: center;
+}
+
+.modely img,
+.weby img,
+.hry img {
+    max-width: 32%;
+    display: inline-block;
+}
+
+
+.galerie img:active {
+    max-width: 50%;
+}
+
+/* komentář */
+
+.menu_border {
+    border: 1px solid #bd7373;
+}
+
+.header_border,
+.vzdelani_border,
+.dovednosti_border,
+.kontakt_border {
+    border: 1px dotted  #bd7373; 
+}
+
+.katerina {
+    background-color: #73BDBD;
+    float: right;
+    color: #f2f2f2;
+    padding: 2vh 2vh;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 2%;
+    margin-right: 20px;
+}
+
+.bold,
+.nadpis_2021,
+.nadpis_2020 {
+    font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
