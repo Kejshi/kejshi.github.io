@@ -1,0 +1,29 @@
+*, :after, :before { box-sizing: border-box; }
+
+.bg-darkblue {
+    background-color: #102323;
+}
+
+.bg-medblue {
+    background-color: #408A8A;
+}
+
+.bg-lblue {
+    background-color: #f8fcfc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.clr-white {
+    color: white;
+}
+
+.kontakt a {
+    color: #0D5757;
+}
+
+.kontakt a:hover {
+    color: #73BDBD;
+}
